@@ -1,16 +1,31 @@
-# React + Vite
+# Portfólio Profissional - Desafio React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**RID:** 164504
+**Template Escolhido:** Template 02 (Dark/Roxo)
 
-Currently, two official plugins are available:
+## 📋 Sobre o Projeto
+Este projeto é um portfólio profissional desenvolvido como parte do desafio técnico. O objetivo foi criar uma aplicação performática utilizando o ecossistema moderno do React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias Utilizadas
+* **React** (Biblioteca principal)
+* **Vite** (Build tool rápida)
+* **React Router Dom** (Navegação entre páginas)
+* **CSS Modules** (Estilização baseada no Template 02 do Figma)
 
-## React Compiler
+## 🪝 Uso de Hooks
+Conforme solicitado nos requisitos, foram implementados os seguintes Hooks na página `Home.jsx`:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  **useState:** Utilizado para gerenciar o estado da lista de projetos.
+2.  **useEffect:** Utilizado para simular uma chamada de API e carregar os dados dos projetos assim que o componente é montado.
 
-## Expanding the ESLint configuration
+## ⚙️ Como rodar o projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# 1. Clone o repositório
+git clone [https://github.com/EngBetao/164504-portfolio-com-react-hooks.git](https://github.com/EngBetao/164504-portfolio-com-react-hooks.git)
+
+# 2. Instale as dependências
+npm install
+
+# 3. Rode o servidor
+npm run dev

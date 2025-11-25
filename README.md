@@ -29,3 +29,11 @@ npm install
 
 # 3. Rode o servidor
 npm run dev
+### Enviar essa atualização
+
+Agora, só para salvar esse texto lá no GitHub também:
+
+```bash
+git add .
+git commit -m "docs: adiciona documentação do projeto e escolha do template"
+git push

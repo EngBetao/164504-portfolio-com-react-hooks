@@ -37,3 +37,6 @@ Agora, só para salvar esse texto lá no GitHub também:
 git add .
 git commit -m "docs: adiciona documentação do projeto e escolha do template"
 git push
+git add .
+git commit -m "docs: adiciona documentação do projeto e escolha do template"
+git push

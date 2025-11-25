@@ -1,0 +1,58 @@
+/* Hero Section */
+.hero { padding: 80px 0; text-align: left; }
+.hero h1 { font-size: 3.5rem; line-height: 1.1; margin-bottom: 20px; }
+.hero p { color: var(--text-sec); max-width: 500px; margin-bottom: 30px; }
+
+/* Grid de Projetos */
+.projects { padding: 40px 0; }
+.projects h2, .about h2 { font-size: 2rem; margin-bottom: 40px; border-left: 5px solid var(--primary); padding-left: 15px; }
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.project-card {
+  background-color: var(--card-bg);
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid #2a2b36;
+  transition: 0.3s;
+}
+.project-card:hover { border-color: var(--primary); transform: translateY(-5px); }
+
+.card-img {
+  height: 160px;
+  background: linear-gradient(45deg, #2a2b36, #1f1f2e);
+  display: flex; align-items: center; justify-content: center;
+  color: var(--text-sec);
+}
+
+.card-body { padding: 25px; }
+.card-body h3 { margin-bottom: 10px; font-size: 1.2rem; }
+.card-body p { font-size: 0.9rem; color: var(--text-sec); margin-bottom: 20px; }
+
+/* Timeline Horizontal */
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  position: relative;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.timeline::before {
+  content: ''; position: absolute; top: 7px; left: 0; right: 0;
+  height: 2px; background: #333; z-index: 0;
+}
+.timeline-item {
+  position: relative; z-index: 1; text-align: center;
+  flex: 1; min-width: 150px;
+}
+.dot {
+  width: 16px; height: 16px; background: var(--primary);
+  border-radius: 50%; margin: 0 auto 15px; border: 4px solid var(--bg-color);
+}
+.year { font-weight: bold; font-size: 1.2rem; display: block; margin-bottom: 5px; }
+.timeline-item p { font-size: 0.85rem; color: var(--text-sec); padding: 0 10px; }
